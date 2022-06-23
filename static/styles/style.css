@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+
+body{
+	box-sizing: border-box;
+	margin: 0px;
+	font-size: 16px;
+	background-color: #381148 !important;
+}
+
+#navbar{
+	background-color: rgb(62 60 115);
+	color: #ffc6c6;
+	font-family: 'Titillium Web', sans-serif;
+	height: 90px;
+	border-bottom: solid 5px rgb(11 10 40);
+}
+
+#navbar a{
+	color: #ffc6c6;
+	text-decoration: none;
+}
+
+#navBar div{
+	display: inline-block;
+	margin-left: 12%;
+	height: 100%;
+	float: left;
+}
+
+#menu{
+}
+
+#menu li {
+    display: inline;
+    margin-left: 10px;
+    border-bottom: solid 1px rgb(131 129 204);
+	transition: 0.1s border-bottom;
+}
+
+#menu li:hover{
+	border-bottom: solid 3px rgb(131 129 204);
+}
+
+#menu ul{
+	line-height: 79px;
+}
+
+.logo{
+	color: #FFFFFF;
+	text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+	font-size: 2.5em;
+	margin: 0px;
+	height: 100%:
+}
+
+.logo p{
+	margin: 0px;
+	line-height: 81px;
+}
+
+.carousel-caption{
+	background-color: rgba(0,0,0,0.7);
+	border-radius: 10px;
+}
+
+.carousel-caption h5{
+	font-size: 2.5em;
+}
+
+#footer{
+	min-height: 90px;
+	background-color: rgb(5 1 22);
+	padding: 1% 10%;
+	color: #ffc6c6;
+}
+
+#footer-row{
+	line-height: 52px;
+}
+
+#social-media img {
+    width: 8vw;
+	transition: 0.3s transform;
+}
+
+#social-media ul {
+    padding: 2% 0%;
+	display: flex;
+	justify-content: center;
+}
+
+#social-media li {
+	list-style: none;
+	margin: 0px 1%;
+}
+
+#social-media li:nth-child(even):hover img{
+	transform: rotate(-15deg) scale(1.2);
+}
+
+#social-media li:nth-child(odd):hover img{
+	transform: rotate(15deg) scale(1.2);
+}
+
+#main{
+	color: #ffc6c6;
+	min-height: 49vh;
+}
+
+.film {
+    margin-bottom: 3vh;
+}
+
+.film form{
+	display:flex;
+	justify-content: space-between;
+    align-items: center;
+	padding-right: 3%;
+	margin-bottom: 0px;
+}
+
+.movieInfo{
+	display: flex;
+}
+
+.movieInfo p, h3{
+	color: #ffc6c6;
+}
+
+
+
+#filmyGodziny .film:nth-child(even) {
+    background-color: rgb(9 26 32);
+}
+
+#filmyGodziny .film:nth-child(odd) {
+    background-color: rgb(32 56 96);
+}
+
+#filmyGodziny {
+    width: 80%;
+    margin: 70px auto;
+}
+
+#filmyGodziny a, #filmyGodziny p{
+    color: #ffc6c6;
+    font-weight: 600;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.movieDetails {
+    padding: 2em;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.date1 p:hover, .date2 p:hover, .date3 p:hover, .date4 p:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.opisFilmu{
+	font-family: 'Titillium Web', sans-serif;
+	padding: 4% 4%;
+    text-align: justify;
+    font-size: 1.1em;
+    background-color: rgb(102 55 55);
+    border-top: solid 2px rgb(44 92 106);
+	display: none;
+}
+
+#cennik td, #cennik th {
+    padding: 8px 22px;
+}
+
+#cennik {
+	color: #ffc6c6;
+    font-size: 1.6em;
+    font-family: 'Titillium Web', sans-serif;
+    margin: 20px auto;
+    margin-top: 7%;
+    background-color: rgb(9 26 32);
+    border: solid 2px rgb(16 46 56);
+}
+
+#cennik th{
+	background-color: rgb(102 55 55);
+}
+
+#cennik+div{
+	margin: 0% auto;
+    margin-top: 4%;
+}
+
+#wyjasnienie, #rezerwacja{
+	padding: 3% 4%;
+}
+
+#wyjasnienie, #about, #kontakt, #rezerwacja, #registration{
+	width: 70%;
+	background-color: rgba(9 26 32);
+	font-family: 'Titillium Web', sans-serif;
+	border: solid 2px rgb(16 46 56);
+}
+
+#about .logo{
+	text-align: center;
+}
+
+#about, #rezerwacja, #registration{
+    margin: 40px auto;
+    padding: 5% 6%;
+    text-align: justify;
+	margin-top: 5%;
+}
+
+#about .logo p {
+    margin: -3% 0% 7% 0px;
+}
+
+#kontakt{
+	margin: 40px auto;
+	margin-top: 5%;
+	padding: 5% 6%;
+	display: flex;
+}
+
+#kontakt div:nth-child(2) {
+    margin-left: 14%;
+}
+
+#rezerwacja{
+	display:flex;
+	justify-content: space-between;
+}
+
+#right{
+	text-align: right;
+}
+
+#right img{
+	width: 400px;
+}
+
+#registration td{
+	color:	#ffc6c6;
+	padding-right: 5px;
+}
+
+hr {
+    background: rgb(82 82 82);
+    height: 2px;
+}
+
+.movieImage img {
+    width: 300px;
+}
+
+p.kupterazButton {
+    color: rgb(126 137 255) !important;
+}
+
+p.kupterazButton:hover {
+    te: solid 2px red;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+img.d-block {
+    width: 100%;
+    height: 59%;
+}
